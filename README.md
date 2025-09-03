@@ -49,14 +49,14 @@ Testing with Postman
 3. Use the base URL:
    http://127.0.0.1:8000/
 
-4. Check your available endpoints (examples):
-   - POST http://127.0.0.1:8000/signup/  → To create a new user
-   - POST http://127.0.0.1:8000/login/   → To log in and get a token/session
-   - GET  http://127.0.0.1:8000/me/      → To check user details (authorization required)
-   - Swagger Docs: http://127.0.0.1:8000/swagger/
+4. Check your available endpoints (examples): 
+   - (POST) To create a new user
+   - (POST) To log in and get a token/session
+   - (GET)  check user details (authorization required)
+   - (Swagger Docs): http://127.0.0.1:8000/swagger/
 
 5. If the endpoint requires authentication:
-   - In Postman, go to Authorization tab → Bearer Token
+   - In Postman, we get the token and session id will be seen 
    - Paste the token you received after login
 
 6. Verify responses:
@@ -68,3 +68,4 @@ Note
 
 If you face any issue while configuring the repository,
 feel free to contact me at: rishith.gs@gmail.com
+
