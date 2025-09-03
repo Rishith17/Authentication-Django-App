@@ -1,6 +1,6 @@
 # Authentication-Django-App
 
-Steps to Run the Project
+Steps to Run the Project (python manage.py runserver)
 
 1. Clone the repository
    git clone https://github.com/Rishith17/Authentication-Django-App.git
@@ -68,4 +68,5 @@ Note
 
 If you face any issue while configuring the repository,
 feel free to contact me at: rishith.gs@gmail.com
+
 
